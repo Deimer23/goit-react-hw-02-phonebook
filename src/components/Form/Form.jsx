@@ -1,7 +1,5 @@
-import { nanoid } from 'nanoid';
 import s from './Form.module.css'
-const Form = props =>{
-    const id = nanoid();
+const Form = props =>{    
     return(
         <form className={s.form} onSubmit={props.onSave}>
         <label htmlFor="name">Name</label>
